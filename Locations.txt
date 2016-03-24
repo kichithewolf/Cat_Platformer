@@ -1,5 +1,0 @@
-Sprites in Assets/Standard Assets/2D/Sprites
-	/blackcat
-		/idle
-		/jump
-		/walk

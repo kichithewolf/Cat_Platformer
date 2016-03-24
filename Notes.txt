@@ -1,0 +1,9 @@
+Sprites in Assets/Standard Assets/2D/Sprites
+	/blackcat
+		/idle
+		/jump
+		/walk
+Animations and blah same but in respective folders.
+
+Additions:
+Move now has LeftShift for Sprint.
