@@ -13,4 +13,9 @@ public class LoadOnClick : MonoBehaviour
         loadingImage.SetActive(true);
         SceneManager.LoadScene(level); //Remove deprecated function.
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }

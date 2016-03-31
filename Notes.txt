@@ -9,5 +9,7 @@ Additions:
 Move now has LeftShift for Sprint.
 
 Todo:
-Main Menu/Scene Selection
-Make backgrounds move more.
+more work on Main Menu/Scene Selection
+Make backgrounds move
+walk/run -> gradual speedup?
+splashscreen fade, need a good looking splashscreen.
