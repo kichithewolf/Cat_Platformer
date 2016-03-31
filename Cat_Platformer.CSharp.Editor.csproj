@@ -100,6 +100,10 @@
       <Project>{03A407EA-1CA6-0224-50FC-F273A4183ED1}</Project>
       <Name>Cat_Platformer.CSharp.Plugins</Name>
     </ProjectReference>
+    <ProjectReference Include="Cat_Platformer.CSharp.csproj">
+      <Project>{847CDAAA-D4CE-25BB-8BC4-AC706F9C503D}</Project>
+      <Name>Cat_Platformer.CSharp</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
