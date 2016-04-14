@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\Splashscreen.cs" />
     <Compile Include="Assets\Scripts\TextCollideTrigger.cs" />
     <Compile Include="Assets\Scripts\ToNextLevelOnTrigger.cs" />
+    <Compile Include="Assets\SetReplayBool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />

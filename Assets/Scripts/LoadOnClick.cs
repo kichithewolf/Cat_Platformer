@@ -14,6 +14,16 @@ public class LoadOnClick : MonoBehaviour
         SceneManager.LoadScene(level); //Remove deprecated function.
     }
 
+    public void ReplayTrue()
+    {
+        SetReplayBool.replay = true;
+    }
+
+    public void ReplayFalse()
+    {
+        SetReplayBool.replay = false;
+    }
+
     public void ExitGame()
     {
         Application.Quit();
