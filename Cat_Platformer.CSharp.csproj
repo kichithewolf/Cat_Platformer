@@ -72,10 +72,11 @@
     <Compile Include="Assets\Scripts\Follow_Player.cs" />
     <Compile Include="Assets\Scripts\LoadOnClick.cs" />
     <Compile Include="Assets\Scripts\Parallax.cs" />
+    <Compile Include="Assets\Scripts\SetReplayBool.cs" />
+    <Compile Include="Assets\Scripts\ShowHideMenu.cs" />
     <Compile Include="Assets\Scripts\Splashscreen.cs" />
     <Compile Include="Assets\Scripts\TextCollideTrigger.cs" />
     <Compile Include="Assets\Scripts\ToNextLevelOnTrigger.cs" />
-    <Compile Include="Assets\SetReplayBool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
