@@ -26,7 +26,7 @@ public class CountdownTimer : MonoBehaviour {
 
     void OnGUI()
     {
-        GUI.Label(new Rect(850, 10, 100, 20), timeAlloted.ToString());
+        GUI.Label(new Rect(Screen.width - Screen.width/15, Screen.height - (Screen.height/15), 100, 20), timeAlloted.ToString());
         //GUILayout.Label("Time Remaining: " + timeAlloted);
     }
 }
