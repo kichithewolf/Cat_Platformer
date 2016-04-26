@@ -7,7 +7,8 @@ public class CountdownTimer : MonoBehaviour {
     float timeAlloted;
 
     [SerializeField]
-    int gameOverScene;
+    //int gameOverScene;
+    int levelToReload;
 
 	// Use this for initialization
 	void Start () {
@@ -19,7 +20,10 @@ public class CountdownTimer : MonoBehaviour {
         timeAlloted -= Time.deltaTime;
         if(timeAlloted <= 0)
         {
-            SceneManager.LoadScene(gameOverScene);
+            // Using lives system, so gameOverScene should just reload the level!
+            LivesHealth.lives--;
+            //SceneManager.LoadScene(gameOverScene);
+            SceneManager.LoadScene(levelToReload);
         }
 	}
 
