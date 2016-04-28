@@ -22,6 +22,7 @@ public class CountdownTimer : MonoBehaviour {
         {
             // Using lives system, so gameOverScene should just reload the level!
             LivesHealth.lives--;
+            LivesHealth.health = 3;
             //SceneManager.LoadScene(gameOverScene);
             SceneManager.LoadScene(levelToReload);
         }

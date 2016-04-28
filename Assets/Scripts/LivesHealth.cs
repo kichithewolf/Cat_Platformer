@@ -28,7 +28,7 @@ public class LivesHealth : MonoBehaviour {
             // Or play animation or whatever.
             // Play death animation here???
             // Reset health.
-            health = 3;
+            ResetHealth();
             // Subtract life.
             lives--;
             // Reload level.
@@ -58,5 +58,11 @@ public class LivesHealth : MonoBehaviour {
     {
         GUI.Label(new Rect(Screen.width - 10 * (Screen.width / 10), Screen.height - Screen.height, 100, 20), "Lives: " + lives.ToString());
         GUI.Label(new Rect(Screen.width - 10 * (Screen.width / 10), Screen.height - Screen.height + 15, 100, 20), "Health: " + health.ToString());
+    }
+
+    // Reset Health
+    public void ResetHealth()
+    {
+        health = 3;
     }
 }
