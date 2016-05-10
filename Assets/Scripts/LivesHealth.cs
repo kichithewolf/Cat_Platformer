@@ -36,6 +36,7 @@ public class LivesHealth : MonoBehaviour {
         }
         if(lives <= 0)
         {
+            ResetLives();
             SceneManager.LoadScene(gameOverScene);
         }
 	
@@ -64,5 +65,10 @@ public class LivesHealth : MonoBehaviour {
     public void ResetHealth()
     {
         health = 3;
+    }
+    // Reset Lives
+    public void ResetLives()
+    {
+        lives = 3;
     }
 }
