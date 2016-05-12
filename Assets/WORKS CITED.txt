@@ -7,10 +7,13 @@ freesound
 Scripts:
 parallax script is davids
 
+Sprites:
+marsh guy is nicole's
+
 Cutscene backgrounds
 http://alexlinde.deviantart.com/art/Stormy-Sea-238814509
 http://dee-deviantart.deviantart.com/art/Morning-Meadow-Landscape-Blender-3D-533353163
 http://frostbo.deviantart.com/art/Water-Splash-Effect-SET-1-PNG-271020135
 
 Other:
-used renpy to make cutscenes, obs to record.
+used renpy to make cutscenes, obs to record. online video converter to convert and extract.

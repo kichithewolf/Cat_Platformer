@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 7a1cbc9f97ea98743a33bdab59a16e46
-timeCreated: 1463067833
+guid: fc913e98d0417ea4cb3cac286f6e33df
+timeCreated: 1463073781
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Base Character Sprite Sheet_4
-    21300002: Base Character Sprite Sheet_3
+  fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -32,7 +30,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 16
+    aniso: -1
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -40,7 +38,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,29 +49,7 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites:
-    - name: Base Character Sprite Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 51
-        width: 13
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Base Character Sprite Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 51
-        width: 18
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+    sprites: []
     outline: []
   spritePackingTag: 
   userData: 

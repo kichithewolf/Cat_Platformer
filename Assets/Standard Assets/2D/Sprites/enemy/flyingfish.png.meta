@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 7a1cbc9f97ea98743a33bdab59a16e46
-timeCreated: 1463067833
+guid: a586f143e47b5b54c9bf9f4d0379a974
+timeCreated: 1463067149
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Base Character Sprite Sheet_4
-    21300002: Base Character Sprite Sheet_3
+    21300000: flyingfish_0
+    21300002: flyingfish_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -52,28 +52,44 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Base Character Sprite Sheet_3
+    - name: flyingfish_0
       rect:
         serializedVersion: 2
-        x: 98
-        y: 51
-        width: 13
-        height: 43
+        x: 2
+        y: 53
+        width: 94
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Base Character Sprite Sheet_4
+      outline:
+      - - {x: -35, y: 23}
+        - {x: -46, y: 11}
+        - {x: -47, y: 8}
+        - {x: -47, y: -3}
+        - {x: -14, y: -23}
+        - {x: 39, y: -23}
+        - {x: 46, y: -22}
+        - {x: 47, y: -20}
+        - {x: 47, y: 23}
+    - name: flyingfish_1
       rect:
         serializedVersion: 2
-        x: 125
-        y: 51
-        width: 18
-        height: 43
+        x: 2
+        y: 3
+        width: 94
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -47, y: 23}
+        - {x: -47, y: -4}
+        - {x: -41, y: -7}
+        - {x: -2, y: -23}
+        - {x: 33, y: -23}
+        - {x: 47, y: -17}
+        - {x: 47, y: 23}
     outline: []
   spritePackingTag: 
   userData: 
