@@ -10,6 +10,12 @@ public class LivesHealth : MonoBehaviour {
     // Health per life.
     public static int health = 3;
 
+    // I-frames cooldown bool
+    private static bool iframed = false;
+
+    // Number of iframes
+    int iframedcounter = 0;
+
     // Scene to load when lost life. (The Level, generally.)
     [SerializeField]
     int lifeLostScene;
@@ -23,6 +29,18 @@ public class LivesHealth : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+        if(iframed == true)
+        {
+            if(iframedcounter >= 9)
+            {
+                iframedcounter = 0;
+                iframed = false;
+            }
+            else
+            {
+                iframedcounter++;
+            }
+        }
         if(health <= 0)
         {
             // Or play animation or whatever.
@@ -49,8 +67,12 @@ public class LivesHealth : MonoBehaviour {
         if (collided.gameObject.tag == "Enemy" || collided.gameObject.tag == "enemy")
         {
             //Debug.Log("Collided with enemy");
-            transform.Translate(Vector2.left * knockback);
-            health--;
+            //transform.Translate(Vector2.left * knockback);
+            if (iframed == false)
+            {
+                health--;
+                iframed = true;
+            }
         }
     }
 
